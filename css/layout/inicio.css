@@ -1,0 +1,29 @@
+body {
+    font-family: "Poppins";
+    color: var(--cor);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../assets/img/home_site_1.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes1 {
+    padding: 0px 10px;
+}
