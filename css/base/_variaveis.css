@@ -1,0 +1,7 @@
+:root {
+    --cor: rgb(255, 255, 255);
+    --corPadrao: #181818;
+    --larguraimg: 400px;
+    --alturaimg: 600px;
+    --animacao: all 0.3s;
+}
