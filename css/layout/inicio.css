@@ -52,12 +52,18 @@ body {
 
 .parte1-img3 img{
     height: 100%;
+    width: 100%;
+}
+
+.parte1-img3 {
+    margin: 10px 0px;
 }
 
 .parte1-img2{
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+
 }
 
 
