@@ -34,6 +34,7 @@ body {
     justify-content: center;
     height: 75%;
     width: 100%;
+    padding: 3% 0px;
 }
 
 .parte1 img{
@@ -41,11 +42,7 @@ body {
 }
 
 .parte1-img {
-    padding: 20px;
-}
-
-.parte1imagem {
-    padding: 5px;
+    padding: 0px 5px;
 }
 
 .parte1-img1 img{
@@ -54,10 +51,30 @@ body {
 }
 
 .parte1-img3 img{
-    height: 95%;
+    height: 100%;
 }
 
 .parte1-img2{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+.rodape {
+    height: 16%;
+    background-color: #656363;
+    color: #FFFFFF;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 17vw;
+}
+
+.rodape2 {
+    display: flex;
+    flex-direction: row;
 }
